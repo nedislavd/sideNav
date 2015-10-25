@@ -1,0 +1,53 @@
+#side-wrapper {
+    position: fixed;
+    z-index: 10;
+    overflow: hidden;
+    top: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-el {
+    display: block;
+    word-wrap: none;
+    color: #FFFFFF;
+}
+
+.nav-el a {
+    width: 300px;
+    display: block;
+}
+
+.nav-el .el-n {
+    display: inline-block;
+}
+
+.nav-el .el-desc {
+    display: inline-block;
+}
+
+#side-wrapper .nav-el.active a {
+    font-size: 20px;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 1024px;
+    display: block;
+}
+
+#content-1 {
+    background-color: black;
+}
+#content-2 {
+    background-color: red;
+}
+#content-3 {
+    background-color: yellow;
+}
+#content-4 {
+    background-color: green;
+}
+#content-5 {
+    background-color: blue;
+}
